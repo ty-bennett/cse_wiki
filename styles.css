@@ -1,0 +1,83 @@
+@property --usc-red{
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #730000;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  display:flex;
+  background-color: var(--usc-red);
+  color:white;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-logo {
+  height: 5vh;
+  width: auto;
+  padding: 1rem;
+}
+
+.header {
+  height: 10vh;
+  width: 100%;
+}
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  background-color: var(--usc-red);
+}
+
+.navbar-sections{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: var(--usc-red);
+  gap: 2em;
+  padding: 1em;
+}
+
+.navbar-element-text {
+  color: white;
+  border: 1px 1px white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.search-container {
+  display: flex;
+  background-color: var(--usc-red);
+  align-items: center;
+  padding-right: 1em;
+}
+
+.search-container p{
+  padding: 1em;
+  color: white;
+  border: 1px 1px white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.nav-search-box {
+  display: flex;
+  padding: 1em;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
