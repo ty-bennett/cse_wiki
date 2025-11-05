@@ -16,6 +16,7 @@ body{
   justify-content: center;
   align-items: center;
   font-family: 'Roboto', sans-serif;
+  border-bottom: none thick gray;
 }
 
 .header-logo {
@@ -42,7 +43,7 @@ body{
   justify-content: space-evenly;
   background-color: var(--usc-red);
   gap: 2em;
-  padding: 1em;
+  padding: 0.5em;
 }
 
 .navbar-element-text {
@@ -56,7 +57,7 @@ body{
   display: flex;
   background-color: var(--usc-red);
   align-items: center;
-  padding-right: 1em;
+  padding-right: 1rem;
 }
 
 .search-container p{
